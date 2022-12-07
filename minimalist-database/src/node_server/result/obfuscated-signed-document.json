@@ -1,0 +1,47 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "$template": {
+      "name": "ef1ad5cb-bdd8-40ed-8d01-3480a1983464:string:main",
+      "type": "d74b48e9-8d00-424b-b54d-6025cd29f1d4:string:EMBEDDED_RENDERER",
+      "url": "e468258c-9ecb-433a-b2af-26618c7ac422:string:https://tutorial-renderer.openattestation.com"
+    },
+    "recipient": {
+      "name": "205e8351-46be-4370-81bf-3592f83f4d59:string:John Doe"
+    },
+    "issuers": [
+      {
+        "id": "066f9f2c-1f9a-453e-9519-9cc18079e42c:string:did:ethr:undefined",
+        "name": "a8383efc-9077-4d9a-937b-b6f97460ae0c:string:Demo Issuer",
+        "revocation": {
+          "type": "a354b030-1d98-4afd-96d5-fda0845c8009:string:NONE"
+        },
+        "identityProof": {
+          "type": "a6c81e92-8bfc-4864-a68b-7bd2b5dd759a:string:DNS-DID",
+          "location": "3059994c-0ec3-4cca-9c6f-a6599906c4f9:string:noble-tomato-mockingbird.sandbox.openattestation.com",
+          "key": "5fcb3bea-f51a-4f5c-a2bf-d4bc3d413f6a:string:did:ethr:undefined#controller"
+        }
+      }
+    ]
+  },
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "9981ae824ea7b9f1c1c5b9cf77078f8fd5a852b22aca182c913b138415016761",
+    "proof": [],
+    "merkleRoot": "9981ae824ea7b9f1c1c5b9cf77078f8fd5a852b22aca182c913b138415016761"
+  },
+  "proof": [
+    {
+      "type": "OpenAttestationSignature2018",
+      "created": "2022-10-15T18:25:14.266Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:ethr:0xbC2bE7DD6e8B1B2Ff8a5c5deC2C33e64D5B4a186#controller",
+      "signature": "0x439f455d19e79b94a7ff6493ead093a37a3f47e402f992f7a4fc033497835d215791d86d678338a79ece88e95887c20907d4636e17e4857498f9e33ea00591a91b"
+    }
+  ],
+  "privacy": {
+    "obfuscatedData": [
+      "aa2b19586842fb2417c97c6ecffd811535431184a4033efa0d022745007f70e7"
+    ]
+  }
+}

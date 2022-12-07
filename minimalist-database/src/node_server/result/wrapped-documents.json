@@ -1,0 +1,36 @@
+[
+  {
+    "version": "https://schema.openattestation.com/2.0/schema.json",
+    "data": {
+      "$template": {
+        "name": "ceae8390-1bd6-4486-9c52-a1b976a72ddd:string:main",
+        "type": "3df9622d-69d0-46af-92b6-dcbe2564a1f8:string:EMBEDDED_RENDERER",
+        "url": "da3087bc-57b3-4cc9-a15a-3fb512a8d9b1:string:https://tutorial-renderer.openattestation.com"
+      },
+      "recipient": {
+        "name": "cc6dbe4e-bfdb-42a3-af8e-073e4f0eb667:string:John Doe"
+      },
+      "uselessField": "2962207d-405e-4b14-9def-07e4fb93d191:string:uselessString",
+      "issuers": [
+        {
+          "id": "d5264f72-4a7e-49a2-b169-9bccb0f41d1a:string:did:ethr:0xbC2bE7DD6e8B1B2Ff8a5c5deC2C33e64D5B4a186",
+          "name": "cad98e19-bb31-403c-83b8-c1f7ca75194d:string:Demo Issuer",
+          "revocation": {
+            "type": "82b65b76-de3d-47f1-b2a7-9badef9354b4:string:NONE"
+          },
+          "identityProof": {
+            "type": "ffcf41bf-fb62-4560-8f93-53b0a1a60370:string:DNS-DID",
+            "location": "618e669d-dec5-4eb2-b432-8a9e07277c08:string:explicit-gold-sloth.sandbox.openattestation.com",
+            "key": "8f997114-77d5-4a95-b898-317254edb3c0:string:did:ethr:0xbC2bE7DD6e8B1B2Ff8a5c5deC2C33e64D5B4a186#controller"
+          }
+        }
+      ]
+    },
+    "signature": {
+      "type": "SHA3MerkleProof",
+      "targetHash": "b329379387d5b4e359d93350ecd247c0ec5d959fae7fd8042381eec2ae58b9b3",
+      "proof": [],
+      "merkleRoot": "b329379387d5b4e359d93350ecd247c0ec5d959fae7fd8042381eec2ae58b9b3"
+    }
+  }
+]

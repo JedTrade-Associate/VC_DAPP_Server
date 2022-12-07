@@ -1,0 +1,25 @@
+{
+  "$template": {
+    "name": "main",
+    "type": "EMBEDDED_RENDERER",
+    "url": "https://tutorial-renderer.openattestation.com"
+  },
+  "recipient": {
+    "name": "John Doe"
+  },
+  "uselessField": "uselessString",
+  "issuers": [
+    {
+      "id": "did:ethr:0xbC2bE7DD6e8B1B2Ff8a5c5deC2C33e64D5B4a186",
+      "name": "Demo Issuer",
+      "revocation": {
+        "type": "NONE"
+      },
+      "identityProof": {
+        "type": "DNS-DID",
+        "location": "explicit-gold-sloth.sandbox.openattestation.com",
+        "key": "did:ethr:0xbC2bE7DD6e8B1B2Ff8a5c5deC2C33e64D5B4a186#controller"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$template": {
+    "name": "main",
+    "type": "EMBEDDED_RENDERER",
+    "url": "https://tutorial-renderer.openattestation.com"
+  },
+  "wallet": "0xd4A7e49A59503A462eb8Ae709a378f1427f0d5ee",
+  "issuers": [
+    {
+      "id": "did:ethr:0xbC2bE7DD6e8B1B2Ff8a5c5deC2C33e64D5B4a186",
+      "name": "Demo Issuer",
+      "revocation": {
+        "type": "NONE"
+      },
+      "identityProof": {
+        "type": "DNS-DID",
+        "location": "foreign-indigo-krill.sandbox.openattestation.com",
+        "key": "did:ethr:0xbC2bE7DD6e8B1B2Ff8a5c5deC2C33e64D5B4a186#controller"
+      }
+    }
+  ]
+}

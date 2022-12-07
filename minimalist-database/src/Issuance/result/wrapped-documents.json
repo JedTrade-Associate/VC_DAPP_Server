@@ -1,0 +1,33 @@
+[
+  {
+    "version": "https://schema.openattestation.com/2.0/schema.json",
+    "data": {
+      "$template": {
+        "name": "e9626fe8-b3ed-44eb-b5aa-57d0c2f45e67:string:main",
+        "type": "87fe7acc-7c47-4e6b-880c-bef49cc97d82:string:EMBEDDED_RENDERER",
+        "url": "86f83e5e-a2fb-43c9-821c-58736c93a06e:string:https://tutorial-renderer.openattestation.com"
+      },
+      "wallet": "a5d20168-215a-43be-8bad-0450dfe4423c:string:0xd4A7e49A59503A462eb8Ae709a378f1427f0d5ee",
+      "issuers": [
+        {
+          "id": "1e94d486-6064-413d-97f3-0053f12d3de3:string:did:ethr:0xbC2bE7DD6e8B1B2Ff8a5c5deC2C33e64D5B4a186",
+          "name": "28030231-3e98-44a4-a0a2-4532b66fcf87:string:Demo Issuer",
+          "revocation": {
+            "type": "0769c52e-b7ce-4d75-b35d-f99c0c294991:string:NONE"
+          },
+          "identityProof": {
+            "type": "a690cc71-b942-49e2-bd0c-dbd4a68fd396:string:DNS-DID",
+            "location": "379a77c0-408e-404b-b9b4-00e74d8a41a9:string:foreign-indigo-krill.sandbox.openattestation.com",
+            "key": "fdf61b60-e3f4-466a-a6be-fc008c6ea90d:string:did:ethr:0xbC2bE7DD6e8B1B2Ff8a5c5deC2C33e64D5B4a186#controller"
+          }
+        }
+      ]
+    },
+    "signature": {
+      "type": "SHA3MerkleProof",
+      "targetHash": "efd55c8ba4241727290a45110c3586c7978784930611690ffe3e5c3422e5798a",
+      "proof": [],
+      "merkleRoot": "efd55c8ba4241727290a45110c3586c7978784930611690ffe3e5c3422e5798a"
+    }
+  }
+]
